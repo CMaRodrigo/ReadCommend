@@ -1,0 +1,6 @@
+python-dotenv
+pandas
+SQLAlchemy
+streamlit
+numpy
+scikit-surprise
