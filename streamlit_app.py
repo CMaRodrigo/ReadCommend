@@ -111,7 +111,7 @@ if user_input_int:
     recommendation_state = st.text('Choosing books...')
 
     if 'svdpp_model' not in st.session_state:
-        path_svdpp = 'model/svdpp'
+        path_svdpp = 'svdpp'
         _, svdpp = dump.load(path_svdpp)
         st.session_state['svdpp_model'] = svdpp
 
