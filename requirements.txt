@@ -1,4 +1,4 @@
-dotenv
+dotenv=16.0.3
 pandas>=1.3.0
 sqlalchemy>=1.4.20
 streamlit>=0.88.0
